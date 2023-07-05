@@ -1,2 +1,7 @@
+<script lang="ts">
+	import Counter from './Counter.svelte';
+</script>
+
 <h1>Welcome to SvelteKit</h1>
+<Counter />
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
