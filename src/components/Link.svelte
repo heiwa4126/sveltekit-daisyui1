@@ -1,13 +1,13 @@
-<!-- Linkはカッコいいけど、他にもhref必要なやつありそう... -->
-
+<!--
+  コンポーネントにするとカッコいいけど、
+  他にもhref書き換える必要があるエレメント結構ありそう...
+  地道にやったほうがいいかも。
+-->
 <script>
 	import { base } from '$app/paths';
-
 	export let href;
-
-	const url = base + href;
 </script>
 
-<a href={url} {...$$props}>
+<a href={base + href} {...$$props}>
 	<slot />
 </a>

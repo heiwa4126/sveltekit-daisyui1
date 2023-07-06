@@ -3,6 +3,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 // for GitHub Pages
+// see https://kit.svelte.dev/docs/configuration#paths
 let basepath = process.env.GITHUB_REPOSITORY?.split('/')[1];
 basepath = basepath ? '/' + basepath : '';
 
@@ -26,10 +27,11 @@ const config = {
 			// fallback: undefined,
 			// precompress: false, // trueにすると.gzと.brが出来る
 			// strict: true
-			paths: {
-				base: basepath
-			}
 		}),
+		paths: {
+			base: basepath
+		},
+
 		alias: {
 			$components: 'src/components'
 		}
