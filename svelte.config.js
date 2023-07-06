@@ -14,13 +14,17 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		// adapter: adapter(),
 		adapter: adapter({
+			// https://kit.svelte.jp/docs/adapter-static
 			// default options are shown. On some platforms
 			// these options are set automatically — see below
-			pages: 'build',
-			assets: 'build',
-			fallback: undefined,
-			precompress: false, // trueにすると.gzと.brが出来る
-			strict: true
+			// pages: 'build',
+			// assets: 'build',
+			// fallback: undefined,
+			// precompress: false, // trueにすると.gzと.brが出来る
+			// strict: true
+			paths: {
+				base: process.env.GITHUB_REPOSITORY?.split('/')[1] ?? './' // for GitHUb Actions
+			}
 		}),
 		alias: {
 			$components: 'src/components'
