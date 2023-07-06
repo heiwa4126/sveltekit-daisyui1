@@ -1,4 +1,10 @@
-export const posts = [
+export interface Post {
+	slug: string;
+	title: string;
+	content: string;
+}
+
+export const posts: Post[] = [
 	{
 		slug: 'welcome',
 		title: 'Welcome to the Aperture Science computer-aided enrichment center',

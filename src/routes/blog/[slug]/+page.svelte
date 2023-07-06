@@ -1,4 +1,4 @@
-<script>
+<script type="ts">
 	import { Project } from '$lib/global';
 	export let data;
 </script>
