@@ -5,15 +5,15 @@
 home と about があって、home にカウンタが置いてあるサイトを
 GitHub Pages にしてみた。
 
-ここ➞ <https://heiwa4126.github.io/svelte-ssg1>
+ここ ➞ <https://heiwa4126.github.io/svelte-ssg1>
 
-「gh-branchブランチにpushすると更新」方式。
+「gh-branch ブランチに push すると更新」方式。
 
 ## メモ
 
 普通に`pnpm build`だと `./build`に出る。(`./build`はデフォルト値)。
 
-layout.svelete で`<a>`に直書きしてる href、kit.paths.baseで処理してくれない。`<Link>`じゃないからしょうがない。カッコいい方法を調べる。
+layout.svelete で`<a>`に直書きしてる href、kit.paths.base で処理してくれない。`<Link>`じゃないからしょうがない。カッコいい方法を調べる。
 
 (続き)「カッコいい方法」はいまいち無い感じ。地道に `import { base } from '$app/paths';` して `<a href="{base}/about">about</a>` するしかなさそう。
 
