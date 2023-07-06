@@ -1,31 +1,31 @@
 <script>
-	export let data;
-	import { base } from '$app/paths';
+  export let data;
+  import { base } from '$app/paths';
 </script>
 
 <div class="layout">
-	<main>
-		<slot />
-	</main>
+  <main>
+    <slot />
+  </main>
 
-	<aside>
-		<h2>More posts</h2>
-		<ul>
-			{#each data.summaries as { slug, title }}
-				<li>
-					<a href="{base}/blog/{slug}">{title}</a>
-				</li>
-			{/each}
-		</ul>
-	</aside>
+  <aside>
+    <h2>More posts</h2>
+    <ul>
+      {#each data.summaries as { slug, title }}
+        <li>
+          <a href="{base}/blog/{slug}">{title}</a>
+        </li>
+      {/each}
+    </ul>
+  </aside>
 </div>
 
 <style>
-	@media (min-width: 640px) {
-		.layout {
-			display: grid;
-			gap: 2em;
-			grid-template-columns: 1fr 16em;
-		}
-	}
+  @media (min-width: 640px) {
+    .layout {
+      display: grid;
+      gap: 2em;
+      grid-template-columns: 1fr 16em;
+    }
+  }
 </style>

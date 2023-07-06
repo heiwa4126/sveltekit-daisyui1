@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { Project } from '$lib/global';
+  import { Project } from '$lib/global';
 </script>
 
 <svelte:head>
-	<title>{Project} - about</title>
+  <title>{Project} - about</title>
 </svelte:head>
 
 <h1>about</h1>
