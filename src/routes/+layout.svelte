@@ -1,6 +1,10 @@
+<script>
+	import Link from '$components/Link.svelte';
+</script>
+
 <nav>
-	<a href="/">home</a>
-	<a href="/about">about</a>
+	<Link href="/">/home</Link>
+	<Link href="/about">about</Link>
 </nav>
 
 <slot />
