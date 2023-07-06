@@ -23,7 +23,7 @@ const config = {
 			// precompress: false, // trueにすると.gzと.brが出来る
 			// strict: true
 			paths: {
-				base: process.env.GITHUB_REPOSITORY?.split('/')[1] ?? './' // for GitHUb Actions
+				base: process.env.GITHUB_REPOSITORY?.split('/')[1] ?? './' // for GitHub Pages
 			}
 		}),
 		alias: {
