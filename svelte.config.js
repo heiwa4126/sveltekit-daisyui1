@@ -33,7 +33,8 @@ const config = {
     },
 
     alias: {
-      $components: 'src/components'
+      $components: 'src/components',
+      $icon: 'src/icon'
     }
   }
 };
