@@ -1,13 +1,10 @@
-<script>
+<script lang="ts">
   import { base } from '$app/paths';
   import '../app.css';
   let mode = 'light';
-  /**
-   * @param {string} mode1
-   */
-  function setMode(mode1) {
-    const htmlElement = document.querySelector('html');
-    htmlElement?.setAttribute('data-theme', mode1);
+
+  function setMode(mode: string) {
+    document.querySelector('html')?.setAttribute('data-theme', mode);
   }
 </script>
 
