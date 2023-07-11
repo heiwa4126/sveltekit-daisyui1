@@ -1,1 +1,1 @@
-export const Project = 'svelte-ssg1';
+export const Project = 'svelte-daisyui1';
