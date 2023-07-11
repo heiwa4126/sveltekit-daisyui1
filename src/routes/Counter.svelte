@@ -2,10 +2,14 @@
   let count = 0;
 </script>
 
-<div class="counter">
-  <div>
-    <button on:click={() => (count -= 1)}>-</button>
-    {count}
-    <button on:click={() => (count += 1)}>+</button>
-  </div>
+<div class="flex align-middle">
+  <button on:click={() => (count -= 1)}>-</button>
+  <span class="text-lg px-1">{count}</span>
+  <button on:click={() => (count += 1)}>+</button>
 </div>
+
+<style>
+  button {
+    @apply btn btn-xs rounded-md font-extrabold;
+  }
+</style>
