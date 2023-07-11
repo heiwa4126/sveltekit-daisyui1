@@ -5,3 +5,17 @@
 html {
   font-family: 'Roboto', 'Noto Sans JP', sans-serif;
 }
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.symbols-fill {
+  font-variation-settings: 'FILL' 1;
+}
+.baseline-tb {
+  vertical-align: text-bottom;
+}
+
+.border-1 {
+  border: solid black 1px;
+}
