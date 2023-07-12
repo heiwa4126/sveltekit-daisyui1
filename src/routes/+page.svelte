@@ -24,10 +24,13 @@
 </div>
 
 <div>
-  <span class="material-symbols-outlined border-1">bed</span>
-  <div class="material-symbols-outlined symbols-fill border-1">bed</div>
-  <a href="https://www.google.com"><span class="material-symbols-outlined symbols-fill text-cyan-500 baseline-tb">check_circle</span></a>
-  何かテキスト
+  <span class="material-symbols-sharp border-1">bed</span>
+  <a href="https://www.google.com"><span class="material-symbols-sharp text-cyan-500 align-text-bottom">check_circle</span>何かテキスト</a>
+
+  <span class="material-symbols-sharp">bed</span>
+  <p>
+    <span class="material-symbols-sharp align-text-bottom text-8xl">home</span>home
+  </p>
 </div>
 
 <div>
@@ -39,3 +42,6 @@
 <p class="text-left md:text-center">
   Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
+
+<style>
+</style>
