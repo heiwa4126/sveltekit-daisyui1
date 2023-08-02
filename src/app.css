@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .symbols-fill {
