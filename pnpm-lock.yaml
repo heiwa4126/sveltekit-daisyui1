@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.3.3)
   '@types/node':
-    specifier: ^20.4.5
-    version: 20.4.5
+    specifier: ^20.4.6
+    version: 20.4.6
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.2.1
     version: 6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(typescript@5.1.6)
@@ -64,7 +64,7 @@ devDependencies:
     version: 5.1.6
   vite:
     specifier: ^4.4.8
-    version: 4.4.8(@types/node@20.4.5)
+    version: 4.4.8(@types/node@20.4.6)
 
 packages:
 
@@ -430,7 +430,7 @@ packages:
       sirv: 2.0.3
       svelte: 4.1.2
       undici: 5.22.1
-      vite: 4.4.8(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.6)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -446,7 +446,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 2.4.3(svelte@4.1.2)(vite@4.4.8)
       debug: 4.3.4
       svelte: 4.1.2
-      vite: 4.4.8(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.6)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -465,7 +465,7 @@ packages:
       magic-string: 0.30.2
       svelte: 4.1.2
       svelte-hmr: 0.15.2(svelte@4.1.2)
-      vite: 4.4.8(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.6)
       vitefu: 0.2.4(vite@4.4.8)
     transitivePeerDependencies:
       - supports-color
@@ -495,8 +495,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/node@20.4.5:
-    resolution: {integrity: sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==}
+  /@types/node@20.4.6:
+    resolution: {integrity: sha512-q0RkvNgMweWWIvSMDiXhflGUKMdIxBo2M2tYM/0kEGDueQByFzK4KZAgu5YHGFNxziTlppNpTIBcqHQAxlfHdA==}
     dev: true
 
   /@types/pug@2.0.6:
@@ -713,7 +713,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.10
-      caniuse-lite: 1.0.30001518
+      caniuse-lite: 1.0.30001519
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -755,8 +755,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001518
-      electron-to-chromium: 1.4.480
+      caniuse-lite: 1.0.30001519
+      electron-to-chromium: 1.4.482
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
     dev: true
@@ -782,8 +782,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite@1.0.30001518:
-    resolution: {integrity: sha512-rup09/e3I0BKjncL+FesTayKtPrdwKhUufQFd3riFw1hHg8JmIFoInYfB102cFcY/pPgGmdyl/iy+jgiDi2vdA==}
+  /caniuse-lite@1.0.30001519:
+    resolution: {integrity: sha512-0QHgqR+Jv4bxHMp8kZ1Kn8CH55OikjKJ6JmKkZYP1F3D7w+lnFXF70nG5eNfsZS89jadi5Ywy5UCSKLAglIRkg==}
     dev: true
 
   /chalk@4.1.2:
@@ -948,8 +948,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /electron-to-chromium@1.4.480:
-    resolution: {integrity: sha512-IXTgg+bITkQv/FLP9FjX6f9KFCs5hQWeh5uNSKxB9mqYj/JXhHDbu+ekS43LVvbkL3eW6/oZy4+r9Om6lan1Uw==}
+  /electron-to-chromium@1.4.482:
+    resolution: {integrity: sha512-h+UqpfmEr1Qkk0zp7ej/jid7CXoq4m4QzW6wNTb0ELJ/BZCpA4wgUylBIMGCe621tnr4l5VmoHjdoSx2lbnNJA==}
     dev: true
 
   /es6-promise@3.3.1:
@@ -2221,7 +2221,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@4.4.8(@types/node@20.4.5):
+  /vite@4.4.8(@types/node@20.4.6):
     resolution: {integrity: sha512-LONawOUUjxQridNWGQlNizfKH89qPigK36XhMI7COMGztz8KNY0JHim7/xDd71CZwGT4HtSRgI7Hy+RlhG0Gvg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2249,7 +2249,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.4.5
+      '@types/node': 20.4.6
       esbuild: 0.18.17
       postcss: 8.4.27
       rollup: 3.27.0
@@ -2265,7 +2265,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.8(@types/node@20.4.5)
+      vite: 4.4.8(@types/node@20.4.6)
     dev: true
 
   /which@2.0.2:

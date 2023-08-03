@@ -5,8 +5,12 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 
 // for GitHub Pages
 // see https://kit.svelte.dev/docs/configuration#paths
-let basepath = process.env.GITHUB_REPOSITORY?.split('/')[1];
-basepath = basepath ? '/' + basepath : '';
+function s(s) {
+  s = s?.split('/')[1];
+  return s ? '/' + s : undefined;
+}
+
+const basepath = s(process.env.GITHUB_REPOSITORY) ?? '';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
